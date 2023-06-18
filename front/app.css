@@ -1,0 +1,90 @@
+.card-wrapper {
+    margin: 5% 0;
+  }
+  
+/* You can adjust the image size by increasing/decreasing the width, height */
+.custom-circle-image {
+  width: 10vw; /* note i used vw not px for better responsive */
+  height: 10vw;
+}
+
+.custom-circle-image img {
+  object-fit: cover;
+}
+
+.card-title {
+  letter-spacing: 1.1px;
+}
+
+.card-text {
+  font-family: MerriweatherRegular;
+  font-size: 22px;
+  line-height: initial;
+}
+
+.dropzone {
+  border-style: dashed;
+}
+
+
+.error {
+  font-family: MerriweatherRegular;
+  font-size: 30px;
+  line-height: initial;
+  color: blue;
+  text-align: center;
+}
+#titre{
+  background-color: #4CAF50;
+  width: 100%;
+  font-family: MerriweatherRegular;
+  text-align: center;
+
+}
+#titre a{
+  font-size: 50px;
+}
+#classTable {
+  font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+  border-collapse: collapse;
+  width: 100%;
+}
+#pridected {
+ 
+  background-image: url('fleche.png');
+  background-size: 80% auto;; /* ajuster la taille de l'image pour couvrir l'élément */
+  background-position: 0px -70px; /* centrer l'image en arrière-plan */
+  background-repeat: no-repeat;
+
+}
+#titre1 {
+  font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+  margin-top: 19%;
+  font-size: 20px;
+  text-align: center;
+  width: 100%;
+  margin-left: -10%;
+  font-weight: bold;
+  text-transform: uppercase;
+  color: #ddd;
+  
+ 
+}
+
+
+
+
+
+
+#classTable td, #classTable th {
+  border: 1px solid #ddd;
+  padding: 8px;
+}
+
+#classTable th {
+  padding-top: 12px;
+  padding-bottom: 12px;
+  text-align: left;
+  background-color: #4CAF50;
+  color: white;
+}
